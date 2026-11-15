@@ -7,14 +7,14 @@ body {
 }
 h1 {
     color:#2b7a78 ;
-    font-size: 32px ;
+    font-size:48px ;
 }
 
 table {
     width : 80% ;
     margin: 20px auto ;
     border-collapse : collapse;
-    background-color: white;
+    background-color: oldlace;
 }
 
 th , td {
