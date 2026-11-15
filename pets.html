@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <!-- Hareem Sheraz -->
+    <!-- 26i-3235 -->
+    <!-- SE-E -->
+    <head>
+        <title>Available Pets - Pet Adoption Profile</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            /* Simple styling to keep the exact same blue, white, and Arial theme */
+            nav {
+                background-color: #1e6091;
+                padding: 15px;
+                margin-bottom: 30px;
+            }
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                font-weight: bold;
+                font-size: 16px;
+            }
+            nav a:hover {
+                text-decoration: underline;
+            }
+            .gallery {
+                width: 80%;
+                margin: 20px auto;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+            .pet-card {
+                background-color: white;
+                border: 1px solid #dddddd;
+                padding: 15px;
+                width: 200px;
+                text-align: center;
+            }
+            .pet-card img {
+                width: 180px;
+                height: 180px;
+                object-fit: cover;
+            }
+            .pet-card h3 {
+                color: #1e6091;
+                margin: 10px 0 5px 0;
+            }
+            .pet-card p {
+                margin: 5px 0 12px 0;
+                color: #333333;
+            }
+            footer {
+                background-color: #1e6091;
+                color: white;
+                padding: 15px;
+                margin-top: 40px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="pets.html">Available Pets</a>
+        </nav>
+
+        <h1>AVAILABLE PETS GALLERY</h1>
+        <h3>Meet our adorable friends looking for a forever home</h3>
+
+        <!-- Pet Gallery Section -->
+        <div class="gallery">
+            <div class="pet-card">
+                <img src="https://placehold.co/200x200/1e6091/ffffff?text=Whiskers" alt="Whiskers">
+                <h3>Whiskers</h3>
+                <p>Age: 2 Years</p>
+                <button onclick="alert('Thank you for adopting Whiskers. You have given him a new home.')">Adopt me</button>
+            </div>
+
+            <div class="pet-card">
+                <img src="https://placehold.co/200x200/1e6091/ffffff?text=Snowy" alt="Snowy">
+                <h3>Snowy</h3>
+                <p>Age: 1 Year</p>
+                <button onclick="alert('Thank you for adopting Snowy. You have given her a new home.')">Adopt me</button>
+            </div>
+
+            <div class="pet-card">
+                <img src="https://placehold.co/200x200/1e6091/ffffff?text=Buddy" alt="Buddy">
+                <h3>Buddy</h3>
+                <p>Age: 3 Years</p>
+                <button onclick="alert('Thank you for adopting Buddy. You have given him a new home.')">Adopt me</button>
+            </div>
+
+            <div class="pet-card">
+                <img src="https://placehold.co/200x200/1e6091/ffffff?text=Luna" alt="Luna">
+                <h3>Luna</h3>
+                <p>Age: 6 Months</p>
+                <button onclick="alert('Thank you for adopting Luna. You have given her a new home.')">Adopt me</button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 Pet Adoption Profile | Created by Hareem Sheraz (26i-3235)</p>
+        </footer>
+    </body>
+</html>
